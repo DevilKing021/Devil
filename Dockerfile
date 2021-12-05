@@ -1,5 +1,5 @@
 FROM debian:10
-LABEL MAINTAINER="https://github.com/htr-tech/zphisher"
+LABEL MAINTAINER="https://github.com/DevilKing021/Devil"
 
 WORKDIR zphisher/
 ADD . /zphisher
@@ -11,4 +11,4 @@ RUN apt-get install -y unzip
 RUN apt-get clean
 RUN apt-get install -y wget
 
-CMD ["./zphisher.sh"]
+CMD ["./devilphiser.sh"]
